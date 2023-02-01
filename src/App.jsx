@@ -26,7 +26,9 @@ function App() {
        />
       <button className='btn-generar' onClick={generateImage}>Genera una imagen</button>
       {resultado.length>0 ? <img className='imagen-resultado' src={resultado} alt="resultado" /> : <></> }
-      
+      <footer className='footer'>
+      <p>Creador con ♥ por Gustavo Silva</p>
+      </footer>
     </div>
   )
 }
