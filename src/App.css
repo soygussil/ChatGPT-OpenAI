@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-input{
+width: 20rem;
+height: 2rem;
+margin: 2rem;
+}
+
+.btn-generar{
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-generar:hover{
+  background-color: #1a1a1a;
+  transition: border-color 0.25s;
+  color: #fff;
+}
+
+.imagen-resultado{
+  margin-top: 2rem;
+  width: 35rem;
+}
